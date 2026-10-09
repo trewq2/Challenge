@@ -1,0 +1,42 @@
+PÁLFY PYTHON CHALLENGE – TANÁRI GYORSSÚGÓ
+==========================================
+
+CÉL
+---
+A látogató ne programozási előadást kapjon, hanem azonnal érezze:
+„Én változtattam meg a játék működését.”
+
+AJÁNLOTT MENET
+--------------
+1. „Próbáld ki! Gyűjts minél több almát!”
+2. 30–60 másodperc játék.
+3. F2 megnyomása.
+4. Nyissátok meg együtt a config.py fájlt.
+5. PLAYER_SPEED = 5 -> PLAYER_SPEED = 15
+6. Mentés.
+7. Játék újraindítása.
+8. „Na, most próbáld meg!”
+
+RÖVID MAGYARÁZAT
+----------------
+PLAYER_SPEED egy változó.
+A változóban egy értéket tárolunk.
+A program ezt az értéket használja a karakter mozgatásához.
+Amikor 5 helyett 15 kerül bele, ugyanaz a program háromszor nagyobb
+sebességgel mozgatja a karaktert.
+
+GYORSABB DIÁKOKNAK
+------------------
+APPLE_POINTS = 10      -> legyen 50
+GAME_TIME = 60         -> legyen 20
+START_METEORS = 4      -> legyen 8
+PLAYER_SIZE = 42       -> legyen 80
+
+NYÍLT NAP ELŐTT
+---------------
+- Python telepítve
+- pygame telepítve
+- VS Code megnyitva a projekt mappájával
+- config.py külön fülön előkészítve
+- INDITAS.bat az asztalon vagy könnyen elérhető helyen
+- érdemes a config.py eredeti állapotáról másolatot tartani
